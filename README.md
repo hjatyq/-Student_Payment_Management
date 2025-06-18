@@ -1,27 +1,63 @@
-# FrontendAngular
+# 🎓 Demo Angular 19 + Spring Boot – Student Payment Management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+Cette application Angular permet de gérer les étudiants et leurs paiements dans une interface d'administration moderne. Le frontend est basé sur Angular 19 (Standalone API) et utilise Angular Material pour une interface utilisateur élégante.  
+Elle est conçue pour fonctionner avec une API REST en Spring Boot (non incluse dans ce dépôt).
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📸 Aperçu
 
-## Code scaffolding
+### 🖼️ Interface admin (étudiants)
+![Étudiants - Vue Tableau](./CAPANGLAR2.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🧱 Structure Angular Material + Standalone
+![Code Angular Standalone](./CAPANGLAR1.png)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Technologies utilisées
 
-## Running unit tests
+### Frontend
+- Angular 19 (Standalone API)
+- TypeScript
+- Angular Router
+- Angular Material
+- RxJS
+- Formulaires réactifs
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Backend (prévu, mais non inclus)
+- Spring Boot
+- API REST
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🗂️ Architecture du projet
 
-## Further help
+src/
+├── app/
+│ ├── admin/ # Composants de gestion admin
+│ ├── dashboard/ # Tableau de bord
+│ ├── guards/ # Auth Guards
+│ ├── login/ # Page de connexion
+│ ├── payments/ # Paiements
+│ ├── students/ # Liste des étudiants
+│ ├── services/ # Services HTTP / Auth
+│ └── ...
+├── assets/ # Ressources statiques
+├── environments/ # Configuration des environnements
+└── main.ts # Entrée de l'application
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## ▶️ Installation et exécution locale
+
+### 1. Cloner le projet
+
+git clone  https://github.com/hjatyq/-Student_Payment_Management.git 
+cd demo-angular-springBoot
+
+### 2. Installer les dépendances
+
+  npm install
+### 3. Lancer l’application Angular
+ 
+   ng serve
