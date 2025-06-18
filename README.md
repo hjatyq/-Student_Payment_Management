@@ -8,7 +8,8 @@ Elle est conçue pour fonctionner avec une API REST en Spring Boot (non incluse 
 ## 📸 Aperçu
 
 ### 🖼️ Interface admin (étudiants)
-![Étudiants - Vue Tableau](./CAPANGLAR2.png)
+<img src="captures/img1.png" alt="Interface admin">
+
 
 ### 🧱 Structure Angular Material + Standalone
 ![Code Angular Standalone](./CAPANGLAR1.png)
